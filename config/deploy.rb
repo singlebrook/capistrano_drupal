@@ -1,6 +1,6 @@
 set :default_stage, "staging"
 set :stages, %w(production staging)
-require 'capistrano/ext/multistage' # gem install capistrano-extensions
+require 'capistrano/ext/multistage' # gem install capistrano-ext
 
 set :application, ""
 
